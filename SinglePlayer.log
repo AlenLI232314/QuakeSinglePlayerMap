@@ -1,0 +1,14 @@
+---- qbsp / ericw-tools v0.18.1 ----
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+          280 faces
+           47 brushes
+           19 entities
+            6 unique texnames
+          155 texinfo
+
+     Updating entities lump...
+Wrote SinglePlayer.bsp
+
+0.005 seconds elapsed
+Peak memory usage: 3249218 (3.1M)
