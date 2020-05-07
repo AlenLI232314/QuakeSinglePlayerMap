@@ -4,33 +4,38 @@ running with 12 threads
 LoadBSPFile: 'SingleMap.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: brush entity with mins (817.00 -735.00 -911) maxs (847.00 -641.00 -897) (trigger_once) has unmatched "target" (monster_1)
+WARNING: entity at () (worldspawn) has empty key/value "targetname" ""
+WARNING: brush entity with mins (305.00 -207.00 -751) maxs (495.00 -161.00 -737) (trigger_once) has empty key/value "message" ""
+WARNING: brush entity with mins (141.00 -143.00 -991) maxs (143.00 -113.00 -961) (func_button) has empty key/value "targetname" ""
+WARNING: entity at (-144 -176 -997) (item_health) has targetname "HP" which is not targetted by anything.
+WARNING: entity at (-96 32 -992) (weapon_rocketlauncher) has empty key/value "angle" ""
+WARNING: brush entity with mins (-1167.00 -447.00 -5) maxs (-1037.00 -417.00 -5) (trigger_monsterjump) has targetname "jumpab" which is not targetted by anything.
 WARNING: Not 3 values for sunlight_mangle
-49 entities read, 33 are lights.
+72 entities read, 24 are lights.
 --- OptionsSummary ---
     "sunlight_mangle" was set to "1.19249e-008 -1 0" from map
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	5718 solid faces
+	5354 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 33 initial lights
-SetupLights: 33 after surface lights
-SetupLights: 33 after jittering
+SetupLights: 24 initial lights
+SetupLights: 24 after surface lights
+SetupLights: 24 after jittering
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9...
-Final count: 33 lights 1 suns in use.
+0....1....2....3....4....5....6....7....8....9..
+Final count: 24 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 532209
+lightdatasize: 421523
 0 switchable light styles (32 max)
 Writing SingleMap.bsp as BSP version 29
-0.434 seconds elapsed
+0.370 seconds elapsed
 
 stats:
-3.533595 lights tested, 2.897851 hits per sample point
+3.490326 lights tested, 2.554541 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
