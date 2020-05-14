@@ -4,64 +4,66 @@ Output file: SingleMap.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          536 faces
-           90 brushes
-           73 entities
-           14 unique texnames
-          294 texinfo
+          662 faces
+          111 brushes
+          112 entities
+           26 unique texnames
+          342 texinfo
 
 Opened WAD: wads/prototype_1_2.wad
 Opened WAD: wads/START.WAD
 Opened WAD: wads/rogue.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           78 brushes
-          308 planes
+          100 brushes
+          357 planes
 ---- CSGFaces ----
-          464 brushfaces
-          524 csgfaces
-          496 mergedfaces
+          596 brushfaces
+          750 csgfaces
+          705 mergedfaces
 ---- SolidBSP ----
-         1185 split nodes
-          420 solid leafs
-          763 empty leafs
-            3 water leafs
+         1716 split nodes
+          568 solid leafs
+          998 empty leafs
+          151 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         5596 leaffaces
-         5370 nodefaces
+         6805 leaffaces
+         6546 nodefaces
 ---- Portalize ----
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (442.260 1860.790 -741.235)
-          766 vis leafs
-          766 vis clusters
-         2644 vis portals
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (272.000 1860.802 -741.235)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (240.000 1712.000 -667.118)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (240.000 1435.183 -741.235)
+         1149 vis leafs
+         1149 vis clusters
+         3788 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-1608 -1432 -819), no filling performed.
 Leak file written to SingleMap.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-287.141 1876.778 -717.217)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-319.141 1876.778 -717.217)
 Processing hull 2...
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-271.141 1892.778 -717.217)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-335.141 1892.778 -717.217)
 ---- WriteBSPFile ----
 Wrote SingleMap.bsp
-         1046 planes            20920
-         7152 vertexes          85824
-         1257 nodes             30168
-          287 texinfo           11480
-         5446 faces            108920
-         2236 clipnodes         17888
-          839 leafs             23492
-         5672 marksurfaces      11344
-        21778 surfedges         87112
-        13263 edges             53052
-           16 textures         128772
+         1123 planes            22460
+         8276 vertexes          99312
+         1782 nodes             42768
+          327 texinfo           13080
+         6616 faces            132320
+         2555 clipnodes         20440
+         1216 leafs             34048
+         6875 marksurfaces      13750
+        26458 surfedges        105832
+        16405 edges             65620
+           28 textures         192648
               lightdata             0
               visdata               0
-              entdata            5769
+              entdata            8039
 
-0.301 seconds elapsed
-Peak memory usage: 20783132 (19.8M)
+0.349 seconds elapsed
+Peak memory usage: 24679522 (23.5M)
